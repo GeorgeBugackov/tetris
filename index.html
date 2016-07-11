@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/global.css"/>
+
+    <script src="libs/utils.js"></script>
+
+    <script src="index.js"></script>
+
+    <script src="figures/BaseFigure.js"></script>
+    <script src="figures/Cube.js"></script>
+    <script src="figures/Dash.js"></script>
+    <script src="figures/Horse.js"></script>
+    <script src="figures/HorseR.js"></script>
+    <script src="figures/Pyramid.js"></script>
+    <script src="figures/Zigzag.js"></script>
+    <script src="figures/ZigzagR.js"></script>
+
+    <script src="views/BaseView.js"></script>
+    <script src="views/GridView.js"></script>
+    <script src="views/ScoresView.js"></script>
+    <script src="views/FiguresView.js"></script>
+
+    <script src="controllers/BaseController.js"></script>
+    <script src="controllers/ButtonsController.js"></script>
+  </head>
+  <body>
+    <h1 class="centered header">Let's play! Push start!</h1>
+    <div class="screen"></div>
+    <div class="buttonPanel">
+        <div class="startButton" src="styles/images/play.png"></div>
+        <div class="pauseButton disabled" src="styles/images/pause.png"></div>
+        <div class="stopButton disabled" src="styles/images/stop.png"></div>
+    </div>
+    <div class="info">
+        <div><img src="styles/images/down.png"/><span> - to drop figure</span></div>
+        <div><img src="styles/images/left.png"/><span> - to move figure left</span></div>
+        <div><img src="styles/images/right.png"/><span> - to move figure right</span></div>
+        <div><img src="styles/images/up.png"/><span> - to rotate figure</span></div>
+    </div>
+  </body>
+</html>

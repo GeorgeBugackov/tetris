@@ -1,0 +1,71 @@
+body {
+    background-image: url(images/nu_pogodi.svg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position-x: 0;
+    background-position-y: 100%;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.screen {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.screen table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.screen td {
+  width: 20px;
+  height:20px;
+  border: 1px solid black;
+}
+
+.buttonPanel {
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+
+.buttonPanel div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size: cover;
+    margin: 5px;
+}
+
+.buttonPanel .startButton {
+    background-image: url('images/play.png');
+}
+
+.buttonPanel .pauseButton {
+    background-image: url('images/pause.png');
+}
+
+.buttonPanel .stopButton {
+    background-image: url('images/stop.png');
+}
+
+.info {
+    margin: auto;
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.info div span {
+    vertical-align: top;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
